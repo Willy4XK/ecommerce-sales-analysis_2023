@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Sales Analysis & Dashboard
+E-Commerce Sales Analysis & Dashboard
 
 > A complete end-to-end data analysis project analyzing 2,000+ e-commerce transactions — from raw data cleaning to an interactive Streamlit dashboard.
 
@@ -9,11 +9,11 @@
 
 ---
 
-## 📌 Project Overview
+Project Overview
 
 This project performs a full business intelligence analysis on e-commerce sales data across **5 product categories**, **5 regions**, and **3 sales channels** throughout 2023.
 
-### What It Does
+What It Does
 - Cleans and validates raw transactional data
 - Computes key business KPIs (Revenue, AOV, Return Rate, etc.)
 - Generates 5 publication-quality visualisations
@@ -22,7 +22,7 @@ This project performs a full business intelligence analysis on e-commerce sales 
 
 ---
 
-## 🗂️ Project Structure
+Project Structure
 
 ```
 project1_ecommerce_analysis/
@@ -50,7 +50,7 @@ project1_ecommerce_analysis/
 
 ---
 
-## 📊 Key Analyses
+Key Analyses
 
 | Analysis | Description |
 |---|---|
@@ -62,40 +62,20 @@ project1_ecommerce_analysis/
 
 ---
 
-## 🚀 Quick Start
 
-### 1. Clone & Install
-```bash
-git clone https://github.com/YOUR_USERNAME/ecommerce-sales-analysis.git
-cd ecommerce-sales-analysis
-pip install -r requirements.txt
-```
-
-### 2. Run Full Analysis (generates all charts + insights)
-```bash
-python src/analysis.py
-```
-
-### 3. Launch Interactive Dashboard
-```bash
-streamlit run src/dashboard.py
-```
-
----
-
-## 📈 Sample Insights
+Sample Insights
 
 The pipeline automatically generates insights such as:
 
-- 📅 **Peak sales month** — identifies when to stock up inventory
-- 📱 **Mobile App share** — quantifies mobile revenue contribution
-- 🏷️ **Discount effectiveness** — correlates promotions with order volume
-- 🔄 **Return rate health check** — flags quality issues if > 10%
-- 🏆 **Top category & region** — directs marketing budget
+Peak sales month — identifies when to stock up inventory
+Mobile App share — quantifies mobile revenue contribution
+Discount effectiveness — correlates promotions with order volume
+Return rate health check — flags quality issues if > 10%
+Top category & region — directs marketing budget
 
 ---
 
-## 💡 Technical Highlights
+ Technical Highlights
 
 - **Data Generation**: Realistic synthetic data with configurable seed for reproducibility
 - **Vectorised Operations**: All pandas operations use vectorised methods (no Python loops on DataFrames)
@@ -105,14 +85,14 @@ The pipeline automatically generates insights such as:
 
 ---
 
-## 🧪 Running Tests
+Running Tests
 ```bash
 python -m pytest tests/ -v
 ```
 
 ---
 
-## 🔧 Using Real Data
+Using Real Data
 
 Replace the `generate_sample_data()` call in `analysis.py` with your CSV:
 
