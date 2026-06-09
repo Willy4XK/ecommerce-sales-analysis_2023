@@ -105,7 +105,7 @@ Expected columns: `order_id`, `date`, `category`, `region`, `channel`, `unit_pri
 
 ---
 
-## 🛠 Tech Stack
+Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -116,5 +116,5 @@ Expected columns: `order_id`, `date`, `category`, `region`, `channel`, `unit_pri
 
 ---
 
-## 📄 License
+License
 MIT — free to use, modify, and distribute.
